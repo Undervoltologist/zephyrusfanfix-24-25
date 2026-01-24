@@ -4,6 +4,8 @@
 
 # Usage
 
+First install the PawnIO driver: https://pawnio.eu/
+
 Adjust the following settings for each mode in config.json 
 ```
     "CpuTempLimit": 95, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
