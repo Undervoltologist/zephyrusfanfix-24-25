@@ -4,7 +4,7 @@
 
 # Usage
 
-Adjust the following settings for each mode
+Adjust the following settings for each mode in the config.json
 ```
     "CpuTempLimit": 95, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
     "CpuHighTemp": 90, // When this temp is reached, the app will update the fan signal at 500ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
