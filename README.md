@@ -45,9 +45,15 @@ Fan Current speed:
 3564 (reduce fan signal)
 3499 (increase fan signal)
 ```
-...and so on.
+...and so on. 
 
-The result is an incredibly annoying oscillation that sometimes overshoots by 200-400 RPM, accompanied by all 3 fans that are separately oscillating on my g14 2024. In manual mode, this behaviour is way worse due to some rules in the code being disabled because it's manual mode:
+The result is an incredibly annoying oscillation that sometimes overshoots by 200-400 RPM, accompanied by all 3 fans that are separately oscillating on my g14 2024. Here's a video that captures it:
+
+https://github.com/user-attachments/assets/8a8ecb5f-7730-4fc2-8729-f28b0efb3628
+
+
+
+In manual mode, this behaviour is way worse due to some rules in the code being disabled because it's manual mode:
 ```
 Fan Target: 3500
 Fan ramps up to 5000, 
