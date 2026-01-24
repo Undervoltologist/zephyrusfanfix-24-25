@@ -59,4 +59,7 @@ and continues oscillating at 3500. // This behaviour is apparently fixed on the 
 
 This laptop is amazing, it's as if it's a direct replacement to MacBooks while some aspects being even better. But small issues like this makes it worse. This can easily be fixed by a few lines of code, like the tray app I've done. This app reads the target RPM from the EC (hence it's perfectly safe thermals wise, it uses the exact same fan curve of your laptop) and if the current target is higher or lower than the current fan speed, it starts changing the fan signal, till: Target RPM - Current RPM <= 25 and it locks the fan signal till the target RPM changes again. Result is a perfectly behaving smooth fan control without any annoying oscillation. 
 
+# DISCLAIMER
+I DON'T TAKE ANY RESPONSIBILIITIES REGARDING POTENTIAL ISSUES OR DAMAGE CAUSED BY THIS APP. 
+
 
