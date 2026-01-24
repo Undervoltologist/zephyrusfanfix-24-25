@@ -4,7 +4,7 @@
 
 # Usage
 
-Adjust the following settings for each mode in config.json
+Adjust the following settings for each mode in config.json 
 ```
     "CpuTempLimit": 95, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
     
@@ -69,6 +69,6 @@ and continues oscillating at 3500. // This behaviour is apparently fixed on the 
 This laptop is amazing, it's as if it's a direct replacement to MacBooks while some aspects being even better. But small issues like this makes it annoying to use, requiring people to use 3rd party replacements. This can easily be fixed by a few lines of code, like the tray app I've done. This app reads the target RPM from the EC (hence it's perfectly safe thermals wise, it uses the exact same fan curve of your laptop) and if the current target is higher or lower than the current fan speed, it starts changing the fan signal, till: Target RPM - Current RPM <= 25 and it locks the fan signal till the target RPM changes again. Result is a perfectly behaving smooth fan control without any annoying oscillation. 
 
 # DISCLAIMER
-THIS APP READS AND WRITES TO THE EC CHIP FOUND ON YOUR LAPTOP DIRECTLY, ALTERING BEHAVIOUR. I DON'T TAKE ANY RESPONSIBILIITIES REGARDING POTENTIAL ISSUES OR DAMAGE CAUSED BY THIS APP.
+THIS APP READS AND WRITES TO THE EC CHIP FOUND ON YOUR LAPTOP DIRECTLY, ALTERING BEHAVIOUR. I DON'T TAKE ANY RESPONSIBILIITIES REGARDING POTENTIAL ISSUES OR DAMAGE CAUSED BY THIS APP. G16 2024 AND G14/16 2025 HASN'T BEEN TESTED YET.
 
 
