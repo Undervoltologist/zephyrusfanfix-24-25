@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/8a8ecb5f-7730-4fc2-8729-f28b0efb3628
 
 
 
-In manual mode, this behaviour is way worse due to some rules in the code being disabled because it's manual mode:
+In manual mode, this behaviour is way worse due to some rules in the code being disabled in manual mode:
 ```
 Fan Target: 3500
 Fan ramps up to 5000, 
