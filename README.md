@@ -9,23 +9,18 @@ First install the PawnIO driver: https://pawnio.eu/
 Adjust the following settings for each mode in config.json 
 ```
     "CpuTempLimit": 95, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
-    
     "CpuHighTemp": 90, // When this temp is reached, the app will update the fan signal at 500ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
     
     "GpuTempLimit": 87, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
-    
     "GpuHighTemp": 80, // When this temp is reached, the app will update the fan signal at 500ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
     
     "CpuRampUp": 2000, // CPU Fan will be updated every 2000ms when it's ramping up
-    
     "CpuRampDown": 2000, // CPU Fan will be updated every 2000ms when it's ramping down
     
     "GpuRampUp": 2000, // GPU Fan will be updated every 2000ms when it's ramping up
-    
     "GpuRampDown": 2000, // GPU Fan will be updated every 2000ms when it's ramping down
     
     "SysRampUp": 250, // SYS Fan will be updated every 250ms when it's ramping up
-    
     "SysRampDown": 500 // SYS Fan will be updated every 500ms when it's ramping down
 ```
 
