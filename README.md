@@ -13,9 +13,9 @@ Adjust the following settings for each mode in config.json
     "CpuRampUp": 2000, // CPU Fan will be updated every 2000ms when it's ramping up
     "CpuRampDown": 2000, // CPU Fan will be updated every 2000ms when it's ramping down
     "GpuRampUp": 2000, // GPU Fan will be updated every 2000ms when it's ramping up
-    "GpuRampDown": 2000, // GPU Fan will be updated every 2000ms when it's ramping up
+    "GpuRampDown": 2000, // GPU Fan will be updated every 2000ms when it's ramping down
     "SysRampUp": 250, // SYS Fan will be updated every 250ms when it's ramping up
-    "SysRampDown": 500 // SYS Fan will be updated every 500ms when it's ramping up
+    "SysRampDown": 500 // SYS Fan will be updated every 500ms when it's ramping down
 ```
 
 
