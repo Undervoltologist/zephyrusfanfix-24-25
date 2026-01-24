@@ -44,6 +44,7 @@ public class GlobalVariables
     public const ushort FanControlReg = 0x484;
     public const byte ControlEnable = 0;
     public const byte ControlDisable = 8;
+    
     public ushort CpuTargetPwm { get; set; } = 0x457;
     public ushort CpuDcr { get; set; } = 0x1806;
     public ushort CpuRpmLow { get; set; } = 0x181E;
