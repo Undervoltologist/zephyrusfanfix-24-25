@@ -1,4 +1,6 @@
-# Performance
+4050/4060/4070 3 Fans
+
+Performance
 CPU Temps Ramp Up        47 62 65 68 70 72 74 76
 CPU Temps Ramp Down      42 56 62 64 66 68 71 73
 
@@ -13,7 +15,7 @@ GPU RPM                  2500 3000 3200 3400 3600 4000 4500 5000
 SYS RPM                  2600 3700 3900 3900 *5400* 5500 6800 8000 
 
 
-# Alt-Performance        // takes effect when dGPU is off
+Alt-Performance        // takes effect when dGPU is off
 CPU Temps Ramp Up        47 62 65 68 70 72 74 76
 CPU Temps Ramp Down      42 56 62 64 66 68 71 73
 
@@ -28,7 +30,7 @@ GPU RPM                  2500 3000 3200 3400 3600 4000 4500 5000
 SYS RPM                  2600 3700 3900 3900 *4700* 5500 6800 8000
 
 
-# Turbo
+Turbo
 CPU Temps Ramp Up        20 64 66 68 70 72 74 76
 CPU Temps Ramp Down      18 57 64 66 68 70 72 74
 
@@ -46,7 +48,7 @@ GPU RPM                  3000 3200 3400 4000 4500 4800 5200 5900
 SYS RPM                  3700 3900 3900 5500 6800 7000 7900 7900
   
 
-# Silent
+Silent
 CPU Temps Ramp Up        43 69 70 72 74 76 78
 CPU Temps Ramp Down      39 64 65 67 69 71 73
 
@@ -61,7 +63,7 @@ GPU RPM                  2500 2700 3000 3200 3400 3600 4000
 SYS RPM                  2600 2700 3700 3900 3900 5400 5500
 
 
-# Alt-Silent             // takes effect when dGPU is off
+Alt-Silent             // takes effect when dGPU is off
 CPU Temps Ramp Up        43 69 70 72
 CPU Temps Ramp Down      39 64 65 67
 
