@@ -5,10 +5,12 @@
 
 # Usage
 
-First install the PawnIO driver: https://pawnio.eu/
+First install the PawnIO driver: https://pawnio.eu/ (IT WON'T LAUNCH WITHOUT THE DRIVER)
 If fans get stuck when you quit the app, just change the fan mode and they will continue working normally.
 Adjust the following settings for each mode in config.json 
 ```
+    "UseSecondaryPorts": false, // If the app outputs 65536 and such, change this to "true", might work.
+    
     "CpuTempLimit": 95, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
     "CpuHighTemp": 90, // When this temp is reached, the app will update the fan signal at 500ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
     
