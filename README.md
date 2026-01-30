@@ -89,7 +89,7 @@ Result is a perfectly behaving smooth fan control without any annoying oscillati
 # What should ASUS do to fix this?
 The fan control needs to have a deadzone, such as 75 RPM, so as long as "Current RPM - Target RPM = not more than 75 and not less than 75" it won't try to change and "stabilize" fan speed. This will fix the oscillation.
 
-FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE NORMAL USERS.
+FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE AVERAGE USER.
 
 # DISCLAIMER
 THIS APP READS AND WRITES TO THE EC CHIP FOUND ON YOUR LAPTOP DIRECTLY, ALTERING BEHAVIOUR. I DON'T TAKE ANY RESPONSIBILIITIES REGARDING POTENTIAL ISSUES OR DAMAGE CAUSED BY THIS APP. G16 2024 AND G14/16 2025 HASN'T BEEN TESTED YET.
