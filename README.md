@@ -1,5 +1,5 @@
 # zephyrusfanfix
-<img width="1669" height="1322" alt="image" src="https://github.com/user-attachments/assets/f45fdc9d-c2eb-4582-b43b-22c455b03873" />
+<img width="1664" height="1310" alt="image" src="https://github.com/user-attachments/assets/1413e7a9-0190-472b-b0d9-2499a7c3ed78" />
 
 # Usage
 
