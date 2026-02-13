@@ -54,7 +54,7 @@ then 3800,
 then 3300, 
 then 3600, 
 then 3400, 
-and continues oscillating at 3500. // This behaviour is apparently fixed on the 2025 models.
+and continues oscillating at 3500. // This behaviour is apparently fixed on the 2025 models.https://github.com/Undervoltologist/zephyrusfanfix-24-25/blob/master/README.md
 ```
 
 This laptop is amazing, it's as if it's a direct replacement to MacBooks while some aspects being even better. But small issues like this makes it annoying to use, requiring people to use 3rd party replacements. This can easily be fixed by a few lines of code, like the tray app I've done. 
@@ -66,12 +66,12 @@ Read stock fan curve target RPM from the EC. (hence it's perfectly safe thermals
 
 If the target RPM changes, it checks if the current speed is greater or less than the target, and decides fan should speed up or slow down. 
 
-When it gets within 25 RPM's from the target (Target RPM - Current RPM <= 25) the app locks the fan signal, to be never changed again till new fan target.
+When it gets within 25 RPM's from the target (Target RPM - Current RPM <= 25) the app locks the fan signal, to be never changed again till: new fan target comes up / difference between current RPM and target RPM becomes more than 100.
 
 Result is a perfectly behaving smooth fan control without any annoying oscillation. 
 ```
 # What should ASUS do to fix this?
-The fan control needs to have a deadzone, such as 75 RPM, so as long as "Current RPM - Target RPM = not more than 75 and not less than 75" it won't try to change and "stabilize" fan speed. This will fix the oscillation.
+The fan control needs to have a deadzone, such as 100 RPM, so as long as "Current RPM - Target RPM = not more than 100 and not less than 100" it won't try to change and "stabilize" fan speed. This will fix the oscillation.
 
 FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE AVERAGE USER.
 
