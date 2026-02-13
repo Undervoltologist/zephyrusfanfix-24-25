@@ -1,7 +1,5 @@
 # zephyrusfanfix
-
-<img width="1666" height="1316" alt="image" src="https://github.com/user-attachments/assets/071a02a1-8e9e-4d50-975c-869936dfc7ae" />
-
+<img width="1669" height="1322" alt="image" src="https://github.com/user-attachments/assets/f45fdc9d-c2eb-4582-b43b-22c455b03873" />
 # Usage
 
 First install the PawnIO driver: https://pawnio.eu/ (IT WON'T LAUNCH WITHOUT THE DRIVER)
