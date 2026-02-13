@@ -3,7 +3,7 @@
 
 # Usage
 
-First install the PawnIO driver: https://pawnio.eu/ (IT WON'T LAUNCH WITHOUT THE DRIVER)
+Install the PawnIO driver and the .Net 8.0 Runtime: https://pawnio.eu/ - https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.23-windows-x64-installer (IT WON'T LAUNCH WITHOUT THESE)
 If fans get stuck when you quit the app, just change the fan mode and they will continue working normally.
 App has 3 modes: 
 ```
