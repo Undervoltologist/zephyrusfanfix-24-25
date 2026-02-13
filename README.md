@@ -1,32 +1,13 @@
 # zephyrusfanfix
 
-<img width="387" height="217" alt="image" src="https://github.com/user-attachments/assets/c72116fe-379f-43ee-83b1-d0da485fbf81" />
+<img width="1670" height="1318" alt="image" src="https://github.com/user-attachments/assets/30b02149-8a37-49d7-97d2-25f8443d630b" />
+
 
 
 # Usage
 
 First install the PawnIO driver: https://pawnio.eu/ (IT WON'T LAUNCH WITHOUT THE DRIVER)
 If fans get stuck when you quit the app, just change the fan mode and they will continue working normally.
-Adjust the following settings for each mode in config.json 
-```
-    TOO LOW VALUES CAN BE DANGEROUS AND CRASH YOUR LAPTOP (e.g less than 125ms)
-    "UseSecondaryPorts": false, // If the app outputs 65536 and such, change this to "true", might work.
-    
-    "CpuTempLimit": 95, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
-    "CpuHighTemp": 90, // When this temp is reached, the app will update the fan signal at 500ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
-    
-    "GpuTempLimit": 87, // When this temp is reached, the app will update the fan signal at 100ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
-    "GpuHighTemp": 80, // When this temp is reached, the app will update the fan signal at 500ms, bypassing the value you set for ramp up/down, resulting in faster acceleration
-    
-    "CpuRampUp": 2000, // CPU Fan will be updated every 2000ms when it's ramping up
-    "CpuRampDown": 2000, // CPU Fan will be updated every 2000ms when it's ramping down
-    
-    "GpuRampUp": 2000, // GPU Fan will be updated every 2000ms when it's ramping up
-    "GpuRampDown": 2000, // GPU Fan will be updated every 2000ms when it's ramping down
-    
-    "SysRampUp": 250, // SYS Fan will be updated every 250ms when it's ramping up
-    "SysRampDown": 500 // SYS Fan will be updated every 500ms when it's ramping down
-```
 
 
 # Why? 
