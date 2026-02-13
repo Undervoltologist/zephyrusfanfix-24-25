@@ -66,7 +66,7 @@ Read stock fan curve target RPM from the EC. (hence it's perfectly safe thermals
 
 If the target RPM changes, it checks if the current speed is greater or less than the target, and decides fan should speed up or slow down. 
 
-When it gets within 25 RPM's from the target (Target RPM - Current RPM <= 25) the app locks the fan signal, to be never changed again till: new fan target comes up / difference between current RPM and target RPM becomes more than 100.
+When it gets within 15 RPM's from the target (Target RPM - Current RPM <= 15) the app locks the fan signal, to be never changed again till: new fan target comes up / difference between current RPM and target RPM becomes more than 100.
 
 Result is a perfectly behaving smooth fan control without any annoying oscillation. 
 ```
