@@ -6,6 +6,12 @@
 
 First install the PawnIO driver: https://pawnio.eu/ (IT WON'T LAUNCH WITHOUT THE DRIVER)
 If fans get stuck when you quit the app, just change the fan mode and they will continue working normally.
+App has 3 modes: 
+```
+Read Only: Only reads hardware stats.
+StockFix: Uses the stock fan control values, but fixes it and you can slightly modify the behaviour if you enable Global Mode Settings.
+CustomCurve: App calculates everything based on your settings, and controls the fans.
+```
 
 
 # Why? 
