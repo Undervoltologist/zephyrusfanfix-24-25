@@ -10,6 +10,13 @@ App has 3 modes:
 Read Only: Only reads hardware stats.
 StockFix: Uses the stock fan control values, but fixes it and you can slightly modify the behaviour if you enable Mode Settings.
 CustomCurve: App calculates everything based on your settings, and controls the fans.
+
+Mode Settings:
+TempLimit: Fan will update at 100ms regardless of what you've set for ramp up/down, when the temp is above the threshold you specified.
+HighTemp: Fan will update at 500ms regardless of what you've set for ramp up/down, when the temp is above the threshold you specified.
+Ramp Up: Fan signal will get updated based on the duration you set while accelerating.
+Ramp Down: Fan signal will get updated based on the duration you set while decelerating.
+FanChangeDelay: Fan will not change speed after the target changes, before the duration you set.
 ```
 
 
