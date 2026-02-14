@@ -68,7 +68,6 @@ This laptop is amazing, it's as if it's a direct replacement to MacBooks while s
 
 # What this app does
 
-```
 Read stock fan curve target RPM from the EC. (hence it's perfectly safe thermals wise, it uses the exact same fan curve of your laptop)
 
 If the target RPM changes, it checks if the current speed is greater or less than the target, and decides fan should speed up or slow down. 
@@ -76,7 +75,7 @@ If the target RPM changes, it checks if the current speed is greater or less tha
 When it gets within 15 RPM's from the target (Target RPM - Current RPM <= 15) the app locks the fan signal, to be never changed again till: new fan target comes up / difference between current RPM and target RPM becomes more than 100.
 
 Result is a perfectly behaving smooth fan control without any annoying oscillation. 
-```
+
 # What should ASUS do to fix this?
 The fan control needs to have a deadzone, such as 100 RPM, so as long as "Current RPM - Target RPM = not more than 100 and not less than 100" it won't try to change and "stabilize" fan speed. This will fix the oscillation.
 
