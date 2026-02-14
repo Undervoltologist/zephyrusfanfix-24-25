@@ -8,7 +8,7 @@ If fans get stuck when you quit the app, just change the fan mode and they will 
 App has 3 modes: 
 ```
 Read Only: Only reads hardware stats.
-StockFix: Uses the stock fan control values, but fixes it and you can slightly modify the behaviour if you enable Global Mode Settings.
+StockFix: Uses the stock fan control values, but fixes it and you can slightly modify the behaviour if you enable Mode Settings.
 CustomCurve: App calculates everything based on your settings, and controls the fans.
 ```
 
@@ -57,7 +57,7 @@ then 3400,
 and continues oscillating at 3500. // This behaviour is apparently fixed on the 2025 models.https://github.com/Undervoltologist/zephyrusfanfix-24-25/blob/master/README.md
 ```
 
-This laptop is amazing, it's as if it's a direct replacement to MacBooks while some aspects being even better. But small issues like this makes it annoying to use, requiring people to use 3rd party replacements. This can easily be fixed by a few lines of code, like the tray app I've done. 
+This laptop is amazing, it's as if it's a direct replacement to MacBooks while some aspects being even better. But small issues like this makes it annoying to use, requiring people to use 3rd party replacements. This can easily be fixed by a few lines of code. 
 
 # What this app does
 
@@ -73,7 +73,7 @@ Result is a perfectly behaving smooth fan control without any annoying oscillati
 # What should ASUS do to fix this?
 The fan control needs to have a deadzone, such as 100 RPM, so as long as "Current RPM - Target RPM = not more than 100 and not less than 100" it won't try to change and "stabilize" fan speed. This will fix the oscillation.
 
-FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE AVERAGE USER.
+FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE AVERAGE USER. THE ONLY REASON I DID THIS IS BECAUSE THE LAPTOP IS UNBEARABLE TO USE WITH THESE FAN CURVES + OSCILLATION.
 
 # DISCLAIMER
 THIS APP READS AND WRITES TO THE EC CHIP FOUND ON YOUR LAPTOP DIRECTLY, ALTERING BEHAVIOUR. I DON'T TAKE ANY RESPONSIBILIITIES REGARDING POTENTIAL ISSUES OR DAMAGE CAUSED BY THIS APP. G16 2024 AND G14/16 2025 HASN'T BEEN TESTED YET.
