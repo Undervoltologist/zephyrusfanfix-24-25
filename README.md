@@ -29,7 +29,9 @@ These new g14/g16's have a different BIOS compared to their previous models and 
 
 It first calculates the difference between the target and the current fan speed. (e.g 3500 - 3586)
 Then, based on that, it tells the fan controller to increase or decrease the PWM signal that's going to the fan, to make sure the fan keeps spinning at the current target speed, makes sense right? Well, not really.
-There's a very important aspect that's missing in this code: Deadzone. A fan will never run at the same speed, it will always have slight fluctuations as it's a motor. But ASUS's EC code doesn't take this into account, so this is what happens: 
+There's a very important aspect that's completely wrong in this code: Deadzone. A fan will never run at the same speed, it will always have slight fluctuations as it's a motor. 
+
+ASUS's EC code desyncs with it's own functions, the actual fan PWM registers can only be updated with +1/-1 increments, whereas the Target PWM is updated by +2/-2 increments, which lets the Target PWM change before the fan even reaches the Target PWM, hence the fan ends up having to "chase" the continuously changing Target RPM, and in the end, the behaviour is this: 
 ```
 Fan Target: 3500 
 Fan Current speed: 
@@ -48,7 +50,7 @@ https://github.com/user-attachments/assets/8a8ecb5f-7730-4fc2-8729-f28b0efb3628
 
 
 
-In manual mode, this behaviour is way worse due to some rules in the code being disabled in manual mode:
+In manual mode, this behaviour is way worse due to manual mode having way different (and also wrong) Target PWM calculations and adjustments:
 ```
 Fan Target: 3500
 Fan ramps up to 5000, 
