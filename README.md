@@ -1,5 +1,6 @@
 # zephyrusfanfix
 <img width="1666" height="1315" alt="image" src="https://github.com/user-attachments/assets/0205ea40-8474-4fbd-8d4c-573569e3bea3" />
+
 This app is solely made for making the laptop feel better to use, and showcasing what's wrong with the new EC code of the new Zephyrus laptops, potentially other new ROG's as well.
 
 # Usage
