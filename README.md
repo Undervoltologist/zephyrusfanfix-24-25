@@ -66,7 +66,7 @@ then 3800,
 then 3300, 
 then 3600, 
 then 3400, 
-and continues oscillating at 3500. // This behaviour is apparently fixed on the 2025 models.https://github.com/Undervoltologist/zephyrusfanfix-24-25/blob/master/README.md
+and continues oscillating at 3500. // This behaviour is apparently fixed on the 2025 models.
 ```
 
 This laptop is amazing, it's as if it's a direct replacement to MacBooks while some aspects being even better. But small issues like this makes it annoying to use, requiring people to use 3rd party replacements. This can easily be fixed by a few lines of code. 
