@@ -1,5 +1,6 @@
 # zephyrusfanfix
 <img width="1666" height="1315" alt="image" src="https://github.com/user-attachments/assets/0205ea40-8474-4fbd-8d4c-573569e3bea3" />
+This app is solely made for making the laptop feel better to use, and showcasing what's wrong with the new EC code of the new Zephyrus laptops, potentially other new ROG's as well.
 
 # Usage
 
@@ -79,7 +80,7 @@ When it gets within 15 RPM's from the target (Target RPM - Current RPM <= 15) th
 Result is a perfectly behaving smooth fan control without any annoying oscillation. 
 
 # What should ASUS do to fix this?
-The fan control needs to have a deadzone, such as 100 RPM, so as long as "Current RPM - Target RPM = not more than 100 and not less than 100" it won't try to change and "stabilize" fan speed. This will fix the oscillation.
+They need to fix the fan control code by implementing proper deadzone, and fix the continuously changing Target PWM calculation, so that the actual Fan PWM signal doesn't have to chase it over and over.
 
 FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE AVERAGE USER. THE ONLY REASON I DID THIS IS BECAUSE THE LAPTOP IS UNBEARABLE TO USE WITH THESE FAN CURVES + OSCILLATION. THE FAN TABLES ARE ALSO REALLY BAD.
 
