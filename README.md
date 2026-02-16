@@ -21,7 +21,6 @@ Ramp Down: Fan signal will get updated based on the duration you set while decel
 FanChangeDelay: Fan will not change speed after the target changes, before the duration you set.
 ```
 
-
 # Why? 
 g14/g16 2024 & 2025 models are undeniably one of the best windows laptops of today. But small issues such as this and other software issues annoy the user. 
 
@@ -33,7 +32,9 @@ It first calculates the difference between the target and the current fan speed.
 Then, based on that, it tells the fan controller to increase or decrease the PWM signal that's going to the fan, to make sure the fan keeps spinning at the current target speed, makes sense right? Well, not really.
 There's a very important aspect that's completely wrong in this code: Deadzone. A fan will never run at the same speed, it will always have slight fluctuations as it's a motor. 
 
-ASUS's EC code desyncs with it's own functions, the actual fan PWM registers can only be updated with +1/-1 increments, whereas the Target PWM is updated by +2/-2 increments, which lets the Target PWM change before the fan even reaches the Target PWM, hence the fan ends up having to "chase" the continuously changing Target RPM, and in the end, the behaviour is this: 
+ASUS's EC code desyncs with it's own functions, the actual fan PWM registers can only be updated with +1/-1 increments, whereas the Target PWM is updated by +2/-2 increments, which lets the Target PWM change before the fan even reaches the Target PWM, hence the fan ends up having to "chase" the continuously changing Target RPM. 
+
+In the end, the behaviour is this: 
 ```
 Fan Target: 3500 
 Fan Current speed: 
