@@ -44,7 +44,7 @@ Fan Current speed:
 ```
 ...and so on. 
 
-The result is an incredibly annoying oscillation that sometimes overshoots by 200-400 RPM, accompanied by all 3 fans that are separately oscillating on my g14 2024. Here's a video that captures it:
+The result is an incredibly annoying oscillation that sometimes overshoots by 200-400 RPM, accompanied by all 3 fans that are extremely whiny and separately oscillating on my g14 2024. Here's a video that captures it:
 
 https://github.com/user-attachments/assets/8a8ecb5f-7730-4fc2-8729-f28b0efb3628
 
