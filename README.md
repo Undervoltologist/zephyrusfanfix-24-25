@@ -83,7 +83,7 @@ Result is a perfectly behaving smooth fan control without any annoying oscillati
 # What should ASUS do to fix this?
 They need to fix the fan control code by implementing proper deadzone, and fix the continuously changing Target PWM calculation, so that the actual Fan PWM signal doesn't have to chase it over and over. And, proper fan curves please, these laptops can easily have MacBook levels of quietness.
 
-FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE AVERAGE USER. THE LAPTOP IS UNBEARABLE TO USE WITH THESE FAN CURVES + OSCILLATION.
+PLEASE FIX THIS ASUS, IT'LL BECOME A MUCH BETTER FEELING LAPTOP TO USE FOR THE AVERAGE USER. THE LAPTOP IS UNBEARABLE TO USE WITH THESE FAN CURVES + OSCILLATION.
 
 # DISCLAIMER
 THIS APP READS AND WRITES TO THE EC CHIP FOUND ON YOUR LAPTOP DIRECTLY, ALTERING BEHAVIOUR. I DON'T TAKE ANY RESPONSIBILITIES REGARDING POTENTIAL ISSUES OR DAMAGE CAUSED BY THIS APP.
