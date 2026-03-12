@@ -31,7 +31,7 @@ These new g14/g16's have a different BIOS compared to their previous models and 
 It first calculates the difference between the target and the current fan speed. (e.g 3500 - 3586)
 Then, based on that, it tells the fan controller to increase or decrease the PWM signal that's going to the fan, to make sure the fan keeps spinning at the current target speed, makes sense right? Well, not really.
 
-***This is a control-loop desync. ASUS's EC code updates the Target PWM in steps of +2/-2 or greater per cycle (1000ms), while the actual Fan PWM signal is limited to +1/-1 increments per cycle (500ms). This creates a state of permanent hunting: the Fan PWM signal is physically incapable of tracking the Target PWM, forcing the fan into an endless cycle of overshooting and 'chasing' a moving setpoint.***
+***This is a control-loop desync. ASUS's EC code updates the Target PWM in steps of +2/-2 or greater per cycle (1000ms), while the actual Fan PWM signal is limited to +1/-1 increments per cycle (500ms). This creates a state of permanent hunting: the Fan PWM signal is physically incapable of tracking the Target PWM, forcing the fan into an endless cycle of overshooting and 'chasing' a moving setpoint. As the cherry on top, the logic doesn't have a deadzone, meaning the Target PWM will always change by +2/-2 even if the difference between Current RPM and Target RPM is just 1.***
 
 In the end, the behaviour is this: 
 ```
